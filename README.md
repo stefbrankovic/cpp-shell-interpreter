@@ -74,4 +74,4 @@ g++ -std=c++17 -Iinclude src/*.cpp -o shell
 
 ## Background
 
-Built for the 2025/2026 Object-Oriented Programming course. The assignment specification and public test cases (in Serbian) are included in `docs/` for reference.
+Built for the 2025/2026 Object-Oriented Programming course. 

@@ -54,7 +54,6 @@ Key C++/OOP concepts applied: abstract base classes and polymorphism, inheritanc
 cpp-shell-interpreter/
 ├── include/          # Header files (.h)
 ├── src/              # Implementation files (.cpp)
-├── docs/             # Original assignment specification + public test cases
 └── README.md
 ```
 
@@ -72,9 +71,6 @@ g++ -std=c++17 -Iinclude src/*.cpp -o shell
 
 > Note: `SystemCommands.cpp` uses `localtime_s`, which is a Windows/MSVC-specific function. On Linux/macOS, swap it for `localtime_r` if you want to build outside of Visual Studio.
 
-## Status
-
-Implements the full assignment specification (Phase 2): all 11 commands, redirection, pipes, batch execution, and the full error-handling model described in the spec (`docs/project-specification.pdf`). Verified against the provided public test suite (`docs/public-tests.pdf`).
 
 ## Background
 

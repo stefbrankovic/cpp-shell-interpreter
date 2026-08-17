@@ -1,0 +1,24 @@
+# Build output
+*.exe
+*.out
+*.o
+*.obj
+bin/
+build/
+x64/
+x86/
+Debug/
+Release/
+
+# Visual Studio
+.vs/
+*.sln.docstates
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.iml
+
+# Misc
+*.log
+.DS_Store
